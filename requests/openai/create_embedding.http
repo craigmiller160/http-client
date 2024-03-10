@@ -1,0 +1,8 @@
+POST {{apiUrl}}/embeddings
+Content-Type: application/json
+Authorization: Bearer {{key}}
+
+{
+  "model": "",
+  "input": "This is the text to turn into an embedding"
+}
