@@ -12,12 +12,16 @@ The file `./environment/http-client.private.env.json` must be created after clon
     "key": "..."
   },
   "apps-dev": {
-    "username": "...",
-    "password": "..."
+    "craigmiller_username": "...",
+    "craigmiller_password": "...",
+    "postman_clientId": "...",
+    "postman_clientSecret": "...",
   },
   "apps-prod": {
-    "username": "...",
-    "password": "..."
+    "craigmiller_username": "...",
+    "craigmiller_password": "...",
+    "postman_clientId": "",
+    "postman_clientSecret": ""
   }
 }
 ```
