@@ -1,0 +1,8 @@
+POST {{tolkienAiServer_host}}/data-ingestion
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "source": "SILMARILLION",
+  "dryRun": true
+}
