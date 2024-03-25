@@ -6,3 +6,7 @@ grant_type = password &
 client_id = {{postman_clientId}} &
 username = {{craigmiller_username}} &
 password = {{craigmiller_password}}
+
+> {%
+ client.global.set("token", response.body.access_token)
+ %}
