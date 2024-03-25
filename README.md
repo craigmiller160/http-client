@@ -10,6 +10,14 @@ The file `./environment/http-client.private.env.json` must be created after clon
 {
   "openai": {
     "key": "..."
+  },
+  "apps-dev": {
+    "username": "...",
+    "password": "..."
+  },
+  "apps-prod": {
+    "username": "...",
+    "password": "..."
   }
 }
 ```
