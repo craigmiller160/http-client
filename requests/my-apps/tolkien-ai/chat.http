@@ -1,0 +1,7 @@
+POST {{tolkienAiServer_host}}/chat
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "query": "Tell me what you know about Feanor"
+}
