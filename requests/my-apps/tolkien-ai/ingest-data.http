@@ -1,4 +1,4 @@
-POST {{tolkienAiServer_host}}/data-ingestion
+POST {{tolkienAiServer_host}}/data/ingest
 Content-Type: application/json
 Authorization: Bearer {{token}}
 
