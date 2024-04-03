@@ -1,8 +1,12 @@
+< {%
+ request.variables.set("dryRun", "false")
+ %}
+
 POST {{tolkienAiServer_host}}/data/ingest
 Content-Type: application/json
 Authorization: Bearer {{token}}
 
 {
   "source": "SILMARILLION",
-  "dryRun": false
+  "dryRun": {{dryRun}}
 }
