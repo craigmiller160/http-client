@@ -1,0 +1,2 @@
+GET {{tolkienAiServer_host}}/data/count
+Authorization: Bearer {{token}}
