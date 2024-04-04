@@ -1,0 +1,2 @@
+POST {{apps_host}}/video-converter/restart
+Authorization: Bearer {{token}}
