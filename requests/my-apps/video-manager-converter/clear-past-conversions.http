@@ -1,2 +1,2 @@
-DELETE {{apps_host}}/video-converter
+DELETE {{video_converter_host}}
 Authorization: Bearer {{token}}
