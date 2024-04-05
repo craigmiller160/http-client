@@ -3,5 +3,6 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "query": "Tell me what you know about Feanor"
+  "query": "Tell me what you know about Feanor",
+  "group": "experiment"
 }
