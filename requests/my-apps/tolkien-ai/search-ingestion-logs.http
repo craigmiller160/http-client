@@ -1,0 +1,2 @@
+GET {{tolkienAiServer_host}}/logs/ingestion
+Authorization: Bearer {{token}}
