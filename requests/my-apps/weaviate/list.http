@@ -1,2 +1,0 @@
-GET {{weaviate_host}}/v1/objects
-Authorization: Bearer {{weaviate_key}}

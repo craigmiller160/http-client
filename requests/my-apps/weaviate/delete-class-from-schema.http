@@ -1,0 +1,2 @@
+DELETE {{host}}/v1/schema/Tolkien
+Authorization: Bearer {{key}}
