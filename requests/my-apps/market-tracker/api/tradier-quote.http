@@ -1,0 +1,3 @@
+GET {{marketTrackerApi_host}}/tradier/markets/quotes
+    ?symbols=VTI,VXUS
+Authorization: Bearer {{token}}
