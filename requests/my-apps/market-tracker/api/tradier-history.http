@@ -1,0 +1,6 @@
+GET {{marketTrackerApi_host}}/tradier/markets/history
+    ?symbol=VTI
+    &start=2024-05-05
+    &end=2024-05-12
+    &interval=daily
+Authorization: Bearer {{token}}
