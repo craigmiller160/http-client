@@ -1,0 +1,2 @@
+POST {{marketTrackerPortfolioService_host}}/download
+Authorization: Bearer {{token}}
