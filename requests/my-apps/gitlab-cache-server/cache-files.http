@@ -1,0 +1,2 @@
+GET {{gitlabCacheServer_host}}/
+Authorization: Bearer {{token}}
