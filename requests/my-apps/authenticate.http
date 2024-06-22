@@ -5,7 +5,8 @@ Authorization: Basic {{postman_clientId}} {{postman_clientSecret}}
 grant_type = password &
 client_id = {{postman_clientId}} &
 username = {{craigmiller_username}} &
-password = {{craigmiller_password}}
+password = {{craigmiller_password}} &
+scope = openid
 
 > {%
  client.global.set("token", response.body.access_token)

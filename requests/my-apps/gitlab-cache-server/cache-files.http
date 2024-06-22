@@ -1,2 +1,2 @@
-GET {{gitlabCacheServer_host}}/
+GET {{gitlabCacheServer_host}}/craigmiller1601/
 Authorization: Bearer {{token}}
