@@ -1,2 +1,2 @@
-DELETE {{video_converter_host}}
+DELETE {{video_converter_host}}/video-converter
 Authorization: Bearer {{token}}

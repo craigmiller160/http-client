@@ -1,2 +1,2 @@
-GET {{video_converter_host}}
+GET {{video_converter_host}}/video-converter
 Authorization: Bearer {{token}}
