@@ -1,0 +1,2 @@
+POST {{expenseTrackerApi_host}}/ai/embedding/all-transactions
+Authorization: Bearer {{token}}
