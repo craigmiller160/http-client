@@ -1,0 +1,21 @@
+< {%
+ const query = `
+{
+  Aggregate {
+    ExpenseTracker_Dev_Transactions {
+      meta {
+        count
+      }
+    }
+  }
+}`;
+ request.variables.set("query", query)
+ %}
+
+POST {{host}}/v1/graphql
+Content-Type: application/json
+Authorization: Bearer {{key}}
+
+{
+  "query": "{{query}}"
+}
