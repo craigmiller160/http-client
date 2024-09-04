@@ -1,5 +1,6 @@
-< {%
- const query = `
+GRAPHQL {{host}}/v1/graphql
+Authorization: Bearer {{key}}
+
 {
   Aggregate {
     ExpenseTracker_Dev_Transactions {
@@ -8,14 +9,4 @@
       }
     }
   }
-}`;
- request.variables.set("query", query)
- %}
-
-POST {{host}}/v1/graphql
-Content-Type: application/json
-Authorization: Bearer {{key}}
-
-{
-  "query": "{{query}}"
 }
