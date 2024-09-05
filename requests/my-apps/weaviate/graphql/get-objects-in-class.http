@@ -11,6 +11,9 @@ Authorization: Bearer {{key}}
       }
     ) {
       text
+      _additional {
+        vector
+      }
     }
   }
 }

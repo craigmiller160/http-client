@@ -1,2 +1,2 @@
-GET {{host}}/v1/schema/ExpenseTracker_Dev_Transactions
+GET {{host}}/v1/schema/Tolkienai_prod
 Authorization: Bearer {{key}}
