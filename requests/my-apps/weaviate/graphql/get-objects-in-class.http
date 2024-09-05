@@ -1,0 +1,16 @@
+GRAPHQL {{host}}/v1/graphql
+Authorization: Bearer {{key}}
+
+{
+  Get {
+    Tolkienai_prod(
+      limit: 5,
+      sort: {
+        path: ["text"],
+        order: asc
+      }
+    ) {
+      text
+    }
+  }
+}
