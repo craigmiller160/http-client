@@ -1,0 +1,2 @@
+GET {{expenseTrackerApi_host}}/categories
+Authorization: Bearer {{token}}
