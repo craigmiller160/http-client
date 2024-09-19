@@ -1,0 +1,8 @@
+POST {{expenseTrackerApi_host}}/ai/admin/testing/query-embeddings
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "query": "",
+  "limit": 10
+}
