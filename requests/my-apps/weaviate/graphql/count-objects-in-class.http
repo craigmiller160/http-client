@@ -3,7 +3,7 @@ Authorization: Bearer {{key}}
 
 {
   Aggregate {
-    Tolkienai_prod {
+    ExpenseTracker_Prod_Transactions(tenant: "7a8e0603-dca6-474c-a0f7-34a748567aee") {
       meta {
         count
       }
