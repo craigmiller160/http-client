@@ -1,0 +1,3 @@
+# @timeout 600000
+DELETE {{expenseTrackerApi_host}}/ai/admin/all-tenants/embedding/all-transactions
+Authorization: Bearer {{token}}
