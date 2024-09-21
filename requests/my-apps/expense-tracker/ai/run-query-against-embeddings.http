@@ -3,6 +3,6 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "query": "Show me all transactions for Target",
+  "query": "Show me transactions in the year 2024 and the month of 8",
   "limit": 20
 }

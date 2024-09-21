@@ -3,17 +3,15 @@ Authorization: Bearer {{key}}
 
 {
   Get {
-    Tolkienai_prod(
+    ExpenseTracker_Prod_Transactions(
       limit: 5,
+      tenant: "7a8e0603-dca6-474c-a0f7-34a748567aee",
       sort: {
-        path: ["text"],
-        order: asc
+        path: ["expense_date"],
+        order: desc
       }
     ) {
-      text
-      _additional {
-        vector
-      }
+      description
     }
   }
 }
