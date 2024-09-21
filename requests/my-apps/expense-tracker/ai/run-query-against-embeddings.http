@@ -3,6 +3,6 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "query": "",
-  "limit": 10
+  "query": "Show me all transactions for Target",
+  "limit": 20
 }
