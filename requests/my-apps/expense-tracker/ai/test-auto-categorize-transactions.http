@@ -1,0 +1,9 @@
+# @timeout 60000
+POST {{expenseTrackerApi_host}}/ai/admin/testing/auto-categorize-transactions
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "startDate": "2024-06-01",
+  "endDate": "2025-01-01"
+}
