@@ -4,6 +4,6 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "startDate": "2024-06-01",
-  "endDate": "2025-01-01"
+  "startDate": "2024-01-01",
+  "endDate": "2025-06-01"
 }
