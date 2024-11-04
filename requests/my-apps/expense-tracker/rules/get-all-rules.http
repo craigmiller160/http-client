@@ -1,2 +1,2 @@
-GET {{expenseTrackerApi_host}}/categories/rules
+GET {{expenseTrackerApi_host}}/categories/rules?pageNumber=0&pageSize=10
 Authorization: Bearer {{token}}
