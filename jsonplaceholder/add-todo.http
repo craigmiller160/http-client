@@ -1,0 +1,9 @@
+POST {{host}}/users/1/todos
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "id": 201,
+  "title": "Hello World",
+  "completed": false
+}
