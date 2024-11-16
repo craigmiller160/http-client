@@ -1,0 +1,9 @@
+POST {{expenseTrackerApi_host}}/transactions
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "expenseDate": "2024-12-01",
+  "description": "TARGET",
+  "amount": 20.01
+}
