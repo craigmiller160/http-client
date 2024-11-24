@@ -1,0 +1,16 @@
+# userId comes from user-info.http keycloak endpoint
+< {%
+    request.variables.set('className', 'ExpenseTracker_Prod_Transactions')
+    request.variables.set('id', 'b0ac458a-1714-4486-979b-ff666b78a765')
+%}
+
+PATCH {{host}}/v1/objects/{{className}}/{{id}}
+Authorization: Bearer {{key}}
+Content-Type: application/json
+
+{
+  "tenant": "{{userId}}",
+  "properties": {
+    "isCategorized": true
+  }
+}
