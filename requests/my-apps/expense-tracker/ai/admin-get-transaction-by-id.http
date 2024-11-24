@@ -1,0 +1,2 @@
+GET {{expenseTrackerApi_host}}/ai/admin/all-tenants/embedding/{{userId}}/transactions/{{transactionId}}
+Authorization: Bearer {{token}}
