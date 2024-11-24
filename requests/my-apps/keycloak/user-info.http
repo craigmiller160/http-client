@@ -1,2 +1,6 @@
 GET {{keycloak_host}}/realms/{{keycloak_realm}}/protocol/openid-connect/userinfo
 Authorization: Bearer {{token}}
+
+> {%
+    client.global.set("userId", response.body.sub)
+%}
