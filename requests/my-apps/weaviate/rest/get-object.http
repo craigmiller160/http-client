@@ -1,7 +1,8 @@
+# userId comes from user-info.http keycloak endpoint
 < {%
  request.variables.set('className', 'ExpenseTracker_Prod_Transactions')
  request.variables.set('id', 'b0ac458a-1714-4486-979b-ff666b78a765')
  %}
 
-GET {{host}}/v1/objects/{{className}}/{{id}}
+GET {{host}}/v1/objects/{{className}}/{{id}}?tenantId={{userId}}
 Authorization: Bearer {{key}}
