@@ -1,6 +1,6 @@
 # Get userId from the user-info.http endpoint on keycloak
 < {%
- request.variables.set('transactionId', '')
+ request.variables.set('transactionId', '4f8aa3cd-cd2e-4456-a0b0-74c2ff26f3a4')
  %}
 
 GET {{expenseTrackerApi_host}}/ai/admin/all-tenants/embedding/{{userId}}/transactions/{{transactionId}}

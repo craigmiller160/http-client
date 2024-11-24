@@ -1,0 +1,6 @@
+< {%
+ request.variables.set('transactionId', '4f8aa3cd-cd2e-4456-a0b0-74c2ff26f3a4')
+ %}
+
+GET {{expenseTrackerApi_host}}/transactions/{{transactionId}}/details
+Authorization: Bearer {{token}}
