@@ -4,5 +4,5 @@
  request.variables.set('id', 'b0ac458a-1714-4486-979b-ff666b78a765')
  %}
 
-GET {{host}}/v1/objects/{{className}}/{{id}}?tenantId={{userId}}
+GET {{host}}/v1/objects/{{className}}/{{id}}?tenant={{userId}}
 Authorization: Bearer {{key}}
