@@ -1,1 +1,2 @@
-GET http://infra.craigmiller160.us/onepassword/v1/vaults
+GET https://infra.craigmiller160.us/onepassword/v1/vaults
+Authorization: Bearer {{token}}
