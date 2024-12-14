@@ -1,0 +1,2 @@
+GET https://infra.craigmiller160.us/onepassword/v1/vaults/k6xneqw7nf5f2fm4azxhbdrcji
+Authorization: Bearer {{token}}
