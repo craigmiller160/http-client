@@ -1,3 +1,0 @@
-# @timeout 600000
-GET {{expenseTrackerApi_host}}/ai
-Authorization: Bearer {{token}}
