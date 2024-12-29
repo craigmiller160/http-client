@@ -1,0 +1,11 @@
+POST {{emailService_host}}/email
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "toAddresses": [
+    "craigmiller160@gmail.com"
+  ],
+  "subject": "Test email",
+  "text": "This is a test email"
+}
