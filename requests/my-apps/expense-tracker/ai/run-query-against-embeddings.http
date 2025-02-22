@@ -3,6 +3,6 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "query": "Show me transactions for Publix",
-  "limit": 20
+  "query": "Show me transactions similar to 'TECO/PEOPLE GAS UTILITYBIL PPD ID: 9128751378'",
+  "limit": 3
 }

@@ -1,0 +1,3 @@
+# @timeout 600000
+POST {{expenseTrackerApi_host}}/ai/admin/init-sync
+Authorization: Bearer {{token}}
