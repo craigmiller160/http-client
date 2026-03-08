@@ -1,0 +1,7 @@
+POST {{authHost}}/o/oauth2/auth
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=client_credentials&
+client_id={{clientId}}&
+client_secret={{clientSecret}}&
+scope=read write
